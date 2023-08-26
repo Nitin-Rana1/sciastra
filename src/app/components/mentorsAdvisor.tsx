@@ -84,20 +84,20 @@ const MentorAdvisorCard: React.FC<MentorAdvisor> = ({
 
 const MentorAdvisor = () => {
   const mentors: MentorAdvisor[] = [
-    {
-      picUrl:
-        "http://sciastra.com/new_admin//teams/files/TIASHA_DAS_Biology.jpg",
-      name: "Tiasha Das",
-      uni: "IISER Berhampur",
-      post: "Principal Project Scientist",
-    },
-    {
-      picUrl:
-        "http://sciastra.com/new_admin//teams/files/Siddharth_Bhatt_physics.jpg",
-      name: "Siddhart Bhatt",
-      uni: "IISER Thiruvananthapuram",
-      post: "Principal Project Scientist",
-    },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/TIASHA_DAS_Biology.jpg",
+    //   name: "Tiasha Das",
+    //   uni: "IISER Berhampur",
+    //   post: "Principal Project Scientist",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Siddharth_Bhatt_physics.jpg",
+    //   name: "Siddhart Bhatt",
+    //   uni: "IISER Thiruvananthapuram",
+    //   post: "Principal Project Scientist",
+    // },
     {
       picUrl:
         "http://sciastra.com/new_admin//teams/files/Sagar_Rathore_physics.jpg",
@@ -112,20 +112,20 @@ const MentorAdvisor = () => {
       uni: "IIT Bombay",
       post: "Principal Project Scientist",
     },
-    {
-      picUrl:
-        "http://sciastra.com/new_admin//teams/files/Saumya_Sharma_mathematics.png",
-      name: "Saumya Prakash",
-      uni: "NISER",
-      post: "Principal Project Scientist",
-    },
-    {
-      picUrl:
-        "http://sciastra.com/new_admin//teams/files/Saumya_Shisodiya_mathematics.jpg",
-      name: "Saumya Shisodiya",
-      uni: "HBTU Kanpur",
-      post: "Principal Project Scientist",
-    },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Saumya_Sharma_mathematics.png",
+    //   name: "Saumya Prakash",
+    //   uni: "NISER",
+    //   post: "Principal Project Scientist",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Saumya_Shisodiya_mathematics.jpg",
+    //   name: "Saumya Shisodiya",
+    //   uni: "HBTU Kanpur",
+    //   post: "Principal Project Scientist",
+    // },
     {
       picUrl:
         "http://sciastra.com/new_admin//teams/files/Veena_Sri_mathematics.jpg",

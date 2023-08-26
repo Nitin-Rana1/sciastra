@@ -49,6 +49,34 @@ const MentorCard: React.FC<Mentor> = ({ name, uni, picUrl }) => {
 
 const Mentors = () => {
   const mentors: Mentor[] = [
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Kedar_Tornekar1.jpg",
+    //   name: "Mandar Tornekar",
+    //   uni: "GMC Dhule",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Sehasree_Mohanta.jpg",
+    //   name: "Sehasree Mohanta",
+    //   uni: "IACS",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Piyush_Verma_biology.jpg",
+    //   name: "Piyush Verma",
+    //   uni: "IISER Pune",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Aditya%20Nayak_Biology.jpeg",
+    //   name: "Aditya Nayak",
+    //   uni: "IISER Mohali",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/TIASHA_DAS_Biology.jpg",
+    //   name: "Tiasha Das",
+    //   uni: "IISER Berhampur",
+    // },
     {
       picUrl: "http://sciastra.com/new_admin//teams/files/Kedar_Tornekar1.jpg",
       name: "Mandar Tornekar",
@@ -78,39 +106,11 @@ const Mentors = () => {
       uni: "IISER Berhampur",
     },
     {
-      picUrl: "http://sciastra.com/new_admin//teams/files/Kedar_Tornekar1.jpg",
-      name: "Mandar Tornekar",
-      uni: "GMC Dhule",
-    },
-    {
-      picUrl: "http://sciastra.com/new_admin//teams/files/Sehasree_Mohanta.jpg",
-      name: "Sehasree Mohanta",
-      uni: "IACS",
-    },
-    {
       picUrl:
-        "http://sciastra.com/new_admin//teams/files/Piyush_Verma_biology.jpg",
-      name: "Piyush Verma",
-      uni: "IISER Pune",
+        "http://sciastra.com/new_admin//teams/files/Siddharth_Bhatt_physics.jpg",
+      name: "Siddhart Bhatt",
+      uni: "IISER Thiruvananthapuram",
     },
-    // {
-    //   picUrl:
-    //     "http://sciastra.com/new_admin//teams/files/Aditya%20Nayak_Biology.jpeg",
-    //   name: "Aditya Nayak",
-    //   uni: "IISER Mohali",
-    // },
-    // {
-    //   picUrl:
-    //     "http://sciastra.com/new_admin//teams/files/TIASHA_DAS_Biology.jpg",
-    //   name: "Tiasha Das",
-    //   uni: "IISER Berhampur",
-    // },
-    // {
-    //   picUrl:
-    //     "http://sciastra.com/new_admin//teams/files/Siddharth_Bhatt_physics.jpg",
-    //   name: "Siddhart Bhatt",
-    //   uni: "IISER Thiruvananthapuram",
-    // },
     // {
     //   picUrl: "http://sciastra.com/new_admin//teams/files/Ripunjay.JPG",
     //   name: "Ripunjay Dwivedi",
@@ -249,11 +249,11 @@ const Mentors = () => {
     //   name: "Anshuman Patra",
     //   uni: "IISER, Berhampur",
     // },
-    // {
-    //   picUrl: "http://sciastra.com/new_admin//teams/files/Parth_Singh.jpg",
-    //   name: "Parth Kumar Singh",
-    //   uni: "IIT,Jodhpur",
-    // },
+    {
+      picUrl: "http://sciastra.com/new_admin//teams/files/Parth_Singh.jpg",
+      name: "Parth Kumar Singh",
+      uni: "IIT,Jodhpur",
+    },
     // {
     //   picUrl:
     //     "http://sciastra.com/new_admin//teams/files/Mandar_Tornekar_chemistry.jpg",
@@ -265,12 +265,12 @@ const Mentors = () => {
     //   name: "Vivek Dwivedi",
     //   uni: "NISER",
     // },
-    // {
-    //   picUrl:
-    //     "http://sciastra.com/new_admin//teams/files/SHRUTI_GUPTA_chemistry.jpg",
-    //   name: "Shruti",
-    //   uni: "CEBS,Mumbai",
-    // },
+    {
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/SHRUTI_GUPTA_chemistry.jpg",
+      name: "Shruti",
+      uni: "CEBS,Mumbai",
+    },
     // {
     //   picUrl:
     //     "http://sciastra.com/new_admin//teams/files/Anshuman_Patra_chemistry.jpg",
