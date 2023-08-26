@@ -85,66 +85,95 @@ const MentorAdvisorCard: React.FC<MentorAdvisor> = ({
 const MentorAdvisor = () => {
   const mentors: MentorAdvisor[] = [
     {
-      name: "Subram",
-      uni: "Cambridge University",
-      post: "Principal Project Scientist",
       picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Kedar_Tornekar1.jpg",
+        "http://sciastra.com/new_admin//teams/files/TIASHA_DAS_Biology.jpg",
+      name: "Tiasha Das",
+      uni: "IISER Berhampur",
+      post: "Principal Project Scientist",
     },
     {
-      name: "Alice",
-      uni: "Harvard University",
-      post: "Research Advisor",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Siddharth_Bhatt_physics.jpg",
+      name: "Siddhart Bhatt",
+      uni: "IISER Thiruvananthapuram",
+      post: "Principal Project Scientist",
     },
     {
-      name: "John",
-      uni: "Stanford University",
-      post: "Senior Researcher",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Sagar_Rathore_physics.jpg",
+      name: "Sagar Rathore",
+      uni: "IISER Berhampur",
+      post: "Principal Project Scientist",
     },
     {
-      name: "Emily",
-      uni: "MIT",
-      post: "Lead Scientist",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Abhay_Gupta_physics.jpg",
+      name: "Abhay Gupta",
+      uni: "IIT Bombay",
+      post: "Principal Project Scientist",
     },
     {
-      name: "Michael",
-      uni: "Caltech",
-      post: "Professor",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Saumya_Sharma_mathematics.png",
+      name: "Saumya Prakash",
+      uni: "NISER",
+      post: "Principal Project Scientist",
     },
     {
-      name: "Sophia",
-      uni: "Princeton University",
-      post: "Research Fellow",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Saumya_Shisodiya_mathematics.jpg",
+      name: "Saumya Shisodiya",
+      uni: "HBTU Kanpur",
+      post: "Principal Project Scientist",
     },
     {
-      name: "Daniel",
-      uni: "Yale University",
-      post: "Senior Research Scientist",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Veena_Sri_mathematics.jpg",
+      name: "Veena Sri",
+      uni: "IISER TVM",
+      post: "Principal Project Scientist",
     },
     {
-      name: "Olivia",
-      uni: "University of Oxford",
-      post: "Postdoctoral Researcher",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Adityarup_Laha_mathematics.jpg",
+      name: "Adityarup Laha",
+      uni: "ISI, Kolkata",
+      post: "Principal Project Scientist",
     },
     {
-      name: "William",
-      uni: "University of Chicago",
-      post: "Research Associate",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Md_Akhtar_mathematics.jpg",
+      name: "MD JAVED AKHTAR",
+      uni: "IISER,KOLKATA",
+      post: "Principal Project Scientist",
     },
     {
-      name: "Emma",
-      uni: "Imperial College London",
-      post: "Junior Scientist",
-      picUrl: "https://www.sciastra.com/teams/dr_omkar.jpg",
+      picUrl: "http://sciastra.com/new_admin//teams/files/Parth_Singh.jpg",
+      name: "Parth Kumar Singh",
+      uni: "IIT,Jodhpur",
+      post: "Principal Project Scientist",
     },
+    {
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/Mandar_Tornekar_chemistry.jpg",
+      name: "Mandar Tornekar",
+      uni: "GMC Dhule",
+      post: "Principal Project Scientist",
+    },
+    {
+      picUrl:
+        "http://sciastra.com/new_admin//teams/files/SHRUTI_GUPTA_chemistry.jpg",
+      name: "Shruti",
+      uni: "CEBS,Mumbai",
+      post: "Principal Project Scientist",
+    },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Anshuman_Patra_chemistry.jpg",
+    //   name: "Anshuman Patra",
+    //   uni: "IISER, Berhampur",
+    //   post: "Principal Project Scientist",
+    // },
   ];
 
   return (

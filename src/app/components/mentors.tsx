@@ -50,65 +50,233 @@ const MentorCard: React.FC<Mentor> = ({ name, uni, picUrl }) => {
 const Mentors = () => {
   const mentors: Mentor[] = [
     {
-      name: "Subram",
-      uni: "Cambridge University",
-      picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Kedar_Tornekar1.jpg",
+      picUrl: "http://sciastra.com/new_admin//teams/files/Kedar_Tornekar1.jpg",
+      name: "Mandar Tornekar",
+      uni: "GMC Dhule",
     },
     {
-      name: "Alice",
-      uni: "Harvard University",
-      picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
+      picUrl: "http://sciastra.com/new_admin//teams/files/Sehasree_Mohanta.jpg",
+      name: "Sehasree Mohanta",
+      uni: "IACS",
     },
     {
-      name: "John",
-      uni: "Stanford University",
       picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
+        "http://sciastra.com/new_admin//teams/files/Piyush_Verma_biology.jpg",
+      name: "Piyush Verma",
+      uni: "IISER Pune",
     },
     {
-      name: "Emily",
-      uni: "MIT",
       picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
+        "http://sciastra.com/new_admin//teams/files/Aditya%20Nayak_Biology.jpeg",
+      name: "Aditya Nayak",
+      uni: "IISER Mohali",
     },
     {
-      name: "Michael",
-      uni: "Caltech",
       picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
+        "http://sciastra.com/new_admin//teams/files/TIASHA_DAS_Biology.jpg",
+      name: "Tiasha Das",
+      uni: "IISER Berhampur",
     },
     {
-      name: "Sophia",
-      uni: "Princeton University",
-      picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
+      picUrl: "http://sciastra.com/new_admin//teams/files/Kedar_Tornekar1.jpg",
+      name: "Mandar Tornekar",
+      uni: "GMC Dhule",
     },
     {
-      name: "Daniel",
-      uni: "Yale University",
-      picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
+      picUrl: "http://sciastra.com/new_admin//teams/files/Sehasree_Mohanta.jpg",
+      name: "Sehasree Mohanta",
+      uni: "IACS",
     },
     {
-      name: "Olivia",
-      uni: "University of Oxford",
       picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
+        "http://sciastra.com/new_admin//teams/files/Piyush_Verma_biology.jpg",
+      name: "Piyush Verma",
+      uni: "IISER Pune",
     },
-    {
-      name: "William",
-      uni: "University of Chicago",
-      picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
-    },
-    {
-      name: "Emma",
-      uni: "Imperial College London",
-      picUrl:
-        "https://www.sciastra.com/new_admin/teams/files/Veena_Sri_mathematics.jpg",
-    },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Aditya%20Nayak_Biology.jpeg",
+    //   name: "Aditya Nayak",
+    //   uni: "IISER Mohali",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/TIASHA_DAS_Biology.jpg",
+    //   name: "Tiasha Das",
+    //   uni: "IISER Berhampur",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Siddharth_Bhatt_physics.jpg",
+    //   name: "Siddhart Bhatt",
+    //   uni: "IISER Thiruvananthapuram",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Ripunjay.JPG",
+    //   name: "Ripunjay Dwivedi",
+    //   uni: "CMI",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Screenshot(49).png",
+    //   name: "Tanmay",
+    //   uni: "NISER",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Sagar_Rathore_physics.jpg",
+    //   name: "Sagar Rathore",
+    //   uni: "IISER Berhampur",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Abhay_Gupta_physics.jpg",
+    //   name: "Abhay Gupta",
+    //   uni: "IIT Bombay",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Siddharth_Bhatt_physics.jpg",
+    //   name: "Siddhart Bhatt",
+    //   uni: "IISER Thiruvananthapuram",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Ripunjay.JPG",
+    //   name: "Ripunjay Dwivedi",
+    //   uni: "CMI",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Screenshot(49).png",
+    //   name: "Tanmay",
+    //   uni: "NISER",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Sagar_Rathore_physics.jpg",
+    //   name: "Sagar Rathore",
+    //   uni: "IISER Berhampur",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Abhay_Gupta_physics.jpg",
+    //   name: "Abhay Gupta",
+    //   uni: "IIT Bombay",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Saumya_Sharma_mathematics.png",
+    //   name: "Saumya Prakash",
+    //   uni: "NISER",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Saumya_Shisodiya_mathematics.jpg",
+    //   name: "Saumya Shisodiya",
+    //   uni: "HBTU Kanpur",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Veena_Sri_mathematics.jpg",
+    //   name: "Veena Sri",
+    //   uni: "IISER TVM",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Adityarup_Laha_mathematics.jpg",
+    //   name: "Adityarup Laha",
+    //   uni: "ISI, Kolkata",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Md_Akhtar_mathematics.jpg",
+    //   name: "MD JAVED AKHTAR",
+    //   uni: "IISER,KOLKATA",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Saumya_Sharma_mathematics.png",
+    //   name: "Saumya Prakash",
+    //   uni: "NISER",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Saumya_Shisodiya_mathematics.jpg",
+    //   name: "Saumya Shisodiya",
+    //   uni: "HBTU Kanpur",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Veena_Sri_mathematics.jpg",
+    //   name: "Veena Sri",
+    //   uni: "IISER TVM",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Adityarup_Laha_mathematics.jpg",
+    //   name: "Adityarup Laha",
+    //   uni: "ISI, Kolkata",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Md_Akhtar_mathematics.jpg",
+    //   name: "MD JAVED AKHTAR",
+    //   uni: "IISER,KOLKATA",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Parth_Singh.jpg",
+    //   name: "Parth Kumar Singh",
+    //   uni: "IIT,Jodhpur",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Mandar_Tornekar_chemistry.jpg",
+    //   name: "Mandar Tornekar",
+    //   uni: "GMC Dhule",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Vivek.jpg",
+    //   name: "Vivek Dwivedi",
+    //   uni: "NISER",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/SHRUTI_GUPTA_chemistry.jpg",
+    //   name: "Shruti",
+    //   uni: "CEBS,Mumbai",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Anshuman_Patra_chemistry.jpg",
+    //   name: "Anshuman Patra",
+    //   uni: "IISER, Berhampur",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Parth_Singh.jpg",
+    //   name: "Parth Kumar Singh",
+    //   uni: "IIT,Jodhpur",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Mandar_Tornekar_chemistry.jpg",
+    //   name: "Mandar Tornekar",
+    //   uni: "GMC Dhule",
+    // },
+    // {
+    //   picUrl: "http://sciastra.com/new_admin//teams/files/Vivek.jpg",
+    //   name: "Vivek Dwivedi",
+    //   uni: "NISER",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/SHRUTI_GUPTA_chemistry.jpg",
+    //   name: "Shruti",
+    //   uni: "CEBS,Mumbai",
+    // },
+    // {
+    //   picUrl:
+    //     "http://sciastra.com/new_admin//teams/files/Anshuman_Patra_chemistry.jpg",
+    //   name: "Anshuman Patra",
+    //   uni: "IISER, Berhampur",
+    // },
   ];
 
   return (
